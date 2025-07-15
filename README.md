@@ -15,14 +15,14 @@ By combining zero-knowledge cryptography with cross-chain communication protocol
 
 ## Documentation
 
-- [Architecture Overview](docs/architecture/overview.md)
-- [Component Specifications](docs/specifications/index.md)
-- [API Reference](docs/api/index.md)
-- [Development Guide](docs/guides/development.md)
-- [Deployment Guide](docs/guides/deployment.md)
-- [Testing Framework](docs/testing/index.md)
-- [Security Model](docs/security/index.md)
-- [Glossary](docs/glossary.md)
+- [Architecture Overview](architecture/overview.md)
+- [Component Specifications](specifications/index.md)
+- [API Reference](api/index.md)
+- [Development Guide](guides/development.md)
+- [Deployment Guide](guides/deployment.md)
+- [Testing Framework](testing/index.md)
+- [Security Model](security/index.md)
+- [Glossary](glossary.md)
 
 ## Getting Started
 
@@ -43,12 +43,8 @@ npm test
 npm start
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
-- Academic advisor: [Name]
-- Industry mentors: [Names]
-- Blockchain research communities
+- Academic advisor: [Anwar-shah]
+- Blockchain Developer: [Mubashir Rao]
