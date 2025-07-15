@@ -16,7 +16,7 @@ By combining zero-knowledge cryptography with cross-chain communication protocol
 ## Documentation
 
 - [Architecture Overview](architecture/overview.md)
-- [Component Specifications](specifications/index.md)
+- [Component Specifications](specifications)
 - [API Reference](api/index.md)
 - [Development Guide](guides/development.md)
 - [Deployment Guide](guides/deployment.md)
