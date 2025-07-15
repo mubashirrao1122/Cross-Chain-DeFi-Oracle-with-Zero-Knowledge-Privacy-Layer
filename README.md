@@ -1,6 +1,6 @@
 # Cross-Chain DeFi Oracle with Zero-Knowledge Privacy Layer
 
-![Project Logo](assets/images/project-logo.png)
+
 
 ## Project Overview
 
