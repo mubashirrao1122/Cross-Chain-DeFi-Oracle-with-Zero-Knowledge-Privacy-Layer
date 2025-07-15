@@ -20,8 +20,8 @@ By combining zero-knowledge cryptography with cross-chain communication protocol
 - [API Reference](api/index.md)
 - [Development Guide](guides/development.md)
 - [Deployment Guide](guides/deployment.md)
-- [Testing Framework](testing/index.md)
-- [Security Model](security/index.md)
+- [Testing Framework](index.md)
+- [Security Model](index.md)
 - [Glossary](glossary.md)
 
 ## Getting Started
