@@ -48,3 +48,4 @@ npm start
 
 - Academic advisor: Anwar-shah
 - Blockchain Developer: Mubashir Rao
+- Blockchain Developer: Zahid iqbal
