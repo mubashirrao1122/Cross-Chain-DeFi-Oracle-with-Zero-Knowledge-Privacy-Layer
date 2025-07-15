@@ -1,2 +1,54 @@
-# Cross-Chain-DeFi-Oracle-with-Zero-Knowledge-Privacy-Layer
-Cross-Chain DeFi Oracle with Zero-Knowledge Privacy Layer: Advanced blockchain infrastructure for secure real-world data, cross-chain asset transfers, privacy-preserving transactions, and scalable DeFi. Modular, interoperable, and privacy-focused.
+# Cross-Chain DeFi Oracle with Zero-Knowledge Privacy Layer
+
+![Project Logo](assets/images/project-logo.png)
+
+## Project Overview
+
+This repository contains the implementation and documentation for a next-generation blockchain infrastructure solution that addresses four critical challenges in the current blockchain ecosystem:
+
+1. Oracle reliability
+2. Cross-chain interoperability
+3. Transaction privacy
+4. Scalability
+
+By combining zero-knowledge cryptography with cross-chain communication protocols and oracle mechanisms, this project creates a secure, private, and efficient foundation for next-generation decentralized applications.
+
+## Documentation
+
+- [Architecture Overview](docs/architecture/overview.md)
+- [Component Specifications](docs/specifications/index.md)
+- [API Reference](docs/api/index.md)
+- [Development Guide](docs/guides/development.md)
+- [Deployment Guide](docs/guides/deployment.md)
+- [Testing Framework](docs/testing/index.md)
+- [Security Model](docs/security/index.md)
+- [Glossary](docs/glossary.md)
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/mubashirrao1122/cross-chain-oracle-zkp.git
+
+# Navigate to the project directory
+cd cross-chain-oracle-zkp
+
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Start development environment
+npm start
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Academic advisor: [Name]
+- Industry mentors: [Names]
+- Blockchain research communities
