@@ -55,47 +55,46 @@ The Cross-Chain Bridge enables seamless communication and asset transfers betwee
 ## Cross-Chain Asset Transfer Flow
 
 ```
-Chain A                                    Chain B
-┌──────────────────┐                      ┌──────────────────┐
-│ User initiates   │                      │                  │
-│ transfer         │                      │                  │
-└────────┬─────────┘                      │                  │
-         │                                │                  │
-┌────────▼─────────┐                      │                  │
-│ Assets locked in │                      │                  │
-│ bridge contract  │                      │                  │
-└────────┬─────────┘                      │                  │
-         │                                │                  │
-┌────────▼─────────┐    ┌─────────────┐   │                  │
-│ Event emitted    ├───►│ Relayer     ├──►│                  │
-│ with transfer    │    │ Network     │   │                  │
-│ details          │    └─────────────┘   │                  │
-└──────────────────┘                      │                  │
-                                          │                  │
-                                          │                  │
-                                     ┌────▼─────────────┐   │
-                                     │ Proof verification│   │
-                                     │ in bridge contract│   │
-                                     └────┬─────────────┘   │
-                                          │                  │
-                                     ┌────▼─────────────┐   │
-                                     │ Assets minted or │   │
-                                     │ unlocked for user│   │
-                                     └────┬─────────────┘   │
-                                          │                  │
-                                     ┌────▼─────────────┐   │
-                                     │ Transfer         │   │
-                                     │ completed        │   │
-                                     └──────────────────┘   │
-                                                            │
-                                                            │
-                                                            │
-┌──────────────────┐                                        │
-│                  │                                        │
-│                  │                                        │
-│                  │                                        │
-│                  │                                        │
-└──────────────────┘                      └──────────────────┘
+Chain A (Source)                                         Chain B (Destination)
+┌──────────────────────┐                                 ┌──────────────────────┐
+│ 1. User initiates    │                                 │                      │
+│    transfer request  │                                 │                      │
+└──────────┬───────────┘                                 │                      │
+           │                                             │                      │
+┌──────────▼───────────┐                                 │                      │
+│ 2. Assets locked     │                                 │                      │
+│    in bridge contract│                                 │                      │
+└──────────┬───────────┘                                 │                      │
+           │                                             │                      │
+┌──────────▼───────────┐                                 │                      │
+│ 3. Event emitted     │                                 │                      │
+│    (transfer details)│                                 │                      │
+└──────────┬───────────┘                                 │                      │
+           │                                             │                      │
+           │                  ┌────────────────────┐     │                      │
+           └─────────────────►│ 4. Relayer Network │────►│                      │
+                              └─────────┬──────────┘     │                      │
+                                        │                │                      │
+                                        ▼                │                      │
+                              ┌──────────────────────┐   │                      │
+                              │ 5. Proof submitted   │   │                      │
+                              │    to Chain B bridge │   │                      │
+                              │    contract          │   │                      │
+                              └─────────┬────────────┘   │                      │
+                                        │                │                      │
+                              ┌─────────▼────────────┐   │                      │
+                              │ 6. Proof verification│   │                      │
+                              │    in bridge contract│   │                      │
+                              └─────────┬────────────┘   │                      │
+                                        │                │                      │
+                              ┌─────────▼────────────┐   │                      │
+                              │ 7. Assets minted OR  │   │                      │
+                              │    unlocked for user │   │                      │
+                              └─────────┬────────────┘   │                      │
+                                        │                │                      │
+                              ┌─────────▼────────────┐   │                      │
+                              │ 8. Transfer complete │   │                      │
+                              └──────────────────────┘   │_____________________ │
 ```
 
 ## Message Types
