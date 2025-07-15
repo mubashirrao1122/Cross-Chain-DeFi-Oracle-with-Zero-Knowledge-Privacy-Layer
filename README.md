@@ -44,5 +44,5 @@ npm start
 
 ## Acknowledgements
 
-- Academic advisor: [Anwar-shah]
-- Blockchain Developer: [Mubashir Rao]
+- Academic advisor: Anwar-shah
+- Blockchain Developer: Mubashir Rao
