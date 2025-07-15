@@ -4,7 +4,7 @@
 
 The Cross-Chain DeFi Oracle with Zero-Knowledge Privacy Layer consists of four primary components that work together to create a comprehensive blockchain infrastructure solution:
 
-![System Architecture Diagram](../assets/images/system-architecture.png)
+
 
 ### Core Components
 
