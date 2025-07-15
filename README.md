@@ -26,10 +26,12 @@ By combining zero-knowledge cryptography with cross-chain communication protocol
 
 ```bash
 # Clone the repository
-git clone https://github.com/mubashirrao1122/cross-chain-oracle-zkp.git
+git clone https://github.com/mubashirrao1122/Cross-Chain-DeFi-Oracle-with-Zero-Knowledge-Privacy-Layer
+.git
 
 # Navigate to the project directory
-cd cross-chain-oracle-zkp
+cd Cross-Chain-DeFi-Oracle-with-Zero-Knowledge-Privacy-Layer
+
 
 # Install dependencies
 npm install
