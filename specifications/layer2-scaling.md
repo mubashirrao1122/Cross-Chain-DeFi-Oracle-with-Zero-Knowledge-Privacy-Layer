@@ -54,7 +54,7 @@ The system implements a hybrid scaling approach that combines elements of:
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│                  Layer 1 Blockchain (Ethereum)                │
+│                  Layer 1 Blockchain (Ethereum)               │
 │                                                              │
 │  ┌─────────────────────┐      ┌─────────────────────────┐    │
 │  │                     │      │                         │    │
