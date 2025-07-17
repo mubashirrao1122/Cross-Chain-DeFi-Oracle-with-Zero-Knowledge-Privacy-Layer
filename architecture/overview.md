@@ -35,7 +35,7 @@ The Cross-Chain DeFi Oracle with Zero-Knowledge Privacy Layer consists of four p
 ┌────────────────┐     ┌────────────────┐
 │                │     │                │
 │  Blockchain A  │     │  Blockchain B  │
-│  (e.g. Ethereum)│◄───►│  (e.g. Solana) │
+│ (e.g. Ethereum)│◄───►│  (e.g. Solana) │
 │                │     │                │
 └────────────────┘     └────────────────┘
 ```
